@@ -80,7 +80,7 @@ order by dea.location,dea.date
 
 
 
--- Using Temp Table to perform Calculation on Partition By in previous query
+-- Using temp table to perform calculation on 'partition by' clause in previous query
 
 DROP Table if exists #percentage_of_population_vaccinated
 Create Table #percentage_of_population_vaccinated
